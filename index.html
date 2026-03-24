@@ -13,6 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap">
 
     <link href="./styles.css" rel="stylesheet">
+</head>
 
 <body>
     <div class="page">
@@ -20,8 +21,9 @@
             <h1>Samuel Hunt</h1>
 
             <p class="intro">
-                I'm a self-taught developer and I'm motivated to improve my skills and knowledge. I enjoy building
-                software and have worked on a variety of projects over the last 3 years.
+                Full-stack developer with 4+ years of professional experience spanning web applications,
+                desktop software, ML tooling, and systems programming. Passionate about building
+                performant, reliable software across the stack.
             </p>
         </div>
         <div class="content secondary contact">
@@ -51,62 +53,127 @@
         <div class="content">
             <h2>Experience</h2>
             <section class="experience">
-                <span class="name">Contract work (2022 casual)</span>
-                <p>Built a web app for a small organisation</p>
+                <span class="name">Elefant AI</span> — Software Developer, Full-time (May 2024 – Present)
                 <ul>
-                    <li>A client built with React and Next.js.</li>
-                    <li>A REST API built with Django and integrating with a PostgreSQL database.</li>
-                    <li>Blog editor using Django authentication system which live updates blogs using dynamic page building.
-                    </li>
+                    <li>Full-stack developer building ML tooling for running model inference and data capture for training.</li>
+                    <li>Headed up Player2, a Tauri desktop app for an AI gaming platform enabling AI-powered mods and NPC experiences.</li>
+                    <li>Tech: Rust, TypeScript/React, Next.js, Go</li>
                 </ul>
             </section>
 
             <section class="experience">
-                <span class="name">School Digital technologies</span> (2019 - 2021)
-                <p>A mixture of python programing and small informational websites.</p>
+                <span class="name">Hello Cashflow</span> — Software Developer, Contract (Mar 2022 – May 2024)
                 <ul>
-                    <li>Multiple websites for YES (Youth Enterprize Scheme)</li>
-                    <li>A prototype pizza ordering system built in python</li>
-                    <li>Plus various other small websites</li>
+                    <li>Full-stack developer building accounting software to visualise Xero and QuickBooks data.</li>
+                    <li>Tech: React, Node.js/TypeScript</li>
                 </ul>
             </section>
 
-            <h2>Public packages</h2>
-            <section class="public-packages">
+            <h2>Publications</h2>
+            <section class="personal-projects">
                 <p>
-                    <span class="name">Apple Music Metadata</span> (2021) <a
-                        href="https://www.npmjs.com/package/apple-music-metadata">NPM/package/apple-music-metadata</a><br>
-                    A library I built for extracting metadata from Apple Music.
-                    Used for getting song data from playlists, albums and singles using the URL.
-                    Mainly used for custom music players.
+                    <span class="name">Scaling Behavior Cloning Improves Causal Reasoning: An Open Model for Real-Time Video Game Playing</span> (Jan 2026)<br>
+                    Yuguang Yue, Irakli Salia, Samuel Hunt, Christopher Green, Wenzhe Shi, Jonathan J Hunt<br>
+                    ICML 2026 Conference Submission
+                    <a href="https://openreview.net/forum?id=aXoVdXkJWk">OpenReview</a>
                 </p>
                 <p>
-                    <span class="name">discord-music-player</span> <a
-                        href="https://github.com/SushiBtw/discord-music-player">SushiBtw/discord-music-player</a><br>
-                    A public package for discord.js that allows you to play music in discord.
-                    I added support for apple music as only Spotify and Youtube was supported.
+                    <span class="name">Learning to Play: A Multimodal Agent for 3D Game-Play</span> (Oct 2025)<br>
+                    Yuguang Yue, Irakli Salia, Samuel Hunt, Christopher Green, Wenzhe Shi, Jonathan J Hunt<br>
+                    ICCV 2025 Workshop MMRAgI
+                    <a href="https://openreview.net/forum?id=yegMKXlpED">OpenReview</a>
+                </p>
+                <p>
+                    <span class="name">Generalizing Across Worlds: 3D Video Games as a Challenge for Embodied Intelligence</span> (Sep 2025)<br>
+                    Yuguang Yue, Irakli Salia, Samuel Hunt, Christopher Green, Wenzhe Shi, Jonathan J Hunt<br>
+                    NeurIPS 2025 Workshop EWM
+                    <a href="https://openreview.net/forum?id=yiF3BxLPTp">OpenReview</a>
+                </p>
+                <p>
+                    <span class="name">Pixels to Play: A Foundation Model for 3D Gameplay</span> (Aug 2025)<br>
+                    Yuguang Yue, Christopher Green, Samuel Hunt, Irakli Salia, Wenzhe Shi, Jonathan J Hunt<br>
+                    2025 IEEE Conference on Games (CoG)
+                    <a href="https://openreview.net/forum?id=SQmQLiTsId">OpenReview</a>
                 </p>
             </section>
 
             <h2>Personal Projects</h2>
             <section class="personal-projects">
                 <p>
-                    <span class="name">Slav bot</span> (2021 - WIP)<br>
-                    A discord bot built in discord.js running on node.js which can be used to play music in discord.
-                    It also has some capabilities with useful utils and administration.
+                    <span class="name">Scrap</span>
+                    <a href="https://github.com/n1ght-hunter/scrap">github.com/n1ght-hunter/scrap</a><br>
+                    A programming language written from scratch in Rust, targeting Rust-like memory safety
+                    with Go-like developer speed.
                 </p>
                 <p>
-                    <span class="name">Blitz</span> (2021 - WIP)<br>
-                    A React Native app that can queue and play music from URLs or the filesystem. Once finished I'm
-                    planning on making it public for use as a starter skin for building a custom player.
+                    <span class="name">rtmalloc</span>
+                    <a href="https://github.com/n1ght-hunter/rtmalloc">github.com/n1ght-hunter/rtmalloc</a><br>
+                    A thread-caching malloc implementation in Rust based on tcmalloc design.
+                    Built to make thread-caching allocators accessible in Rust without C tooling.
+                </p>
+                <p>
+                    <span class="name">Igloo</span>
+                    <a href="https://github.com/n1ght-hunter/igloo">github.com/n1ght-hunter/igloo</a><br>
+                    An Iced GUI plugin system using WASM, enabling plugins written in any
+                    WIT-supported language.
+                </p>
+                <p>
+                    <span class="name">iced_video</span>
+                    <a href="https://github.com/n1ght-hunter/iced_video">github.com/n1ght-hunter/iced_video</a><br>
+                    A video playback widget for the Iced GUI framework.
+                </p>
+                <p>
+                    <span class="name">winit_tray</span>
+                    <a href="https://github.com/n1ght-hunter/winit_tray">github.com/n1ght-hunter/winit_tray</a><br>
+                    System tray icon support for winit.
                 </p>
             </section>
+
+            <h2>Open Source Contributions</h2>
+            <section class="personal-projects">
+                <p>
+                    <span class="name">iced</span>
+                    <a href="https://github.com/iced-rs/iced">iced-rs/iced</a><br>
+                    Multiple contributions including window decorations, slider rail styling,
+                    window actions, and icon management.
+                </p>
+                <p>
+                    <span class="name">wild linker</span>
+                    <a href="https://github.com/wild-linker/wild">wild-linker/wild</a><br>
+                    Working on Windows target support for the Rust linker.
+                </p>
+                <p>
+                    <span class="name">wgpu</span>
+                    <a href="https://github.com/gfx-rs/wgpu">gfx-rs/wgpu</a><br>
+                    Added DComp swapchain support for the DX12 backend to simplify transparency.
+                </p>
+                <p>
+                    <span class="name">burn</span>
+                    <a href="https://github.com/tracel-ai/burn">tracel-ai/burn</a><br>
+                    Improved burn-import code generation output formatting.
+                </p>
+                <p>
+                    <span class="name">tauri</span>
+                    <a href="https://github.com/tauri-apps/tauri">tauri-apps/tauri</a><br>
+                    Added <code>Builder::on_device_event</code> for device event handling.
+                </p>
+            </section>
+
+            <h2>Minor Contributions</h2>
+            <p>
+                <a href="https://github.com/bevyengine/bevy_editor_prototypes">bevy_editor_prototypes</a>,
+                <a href="https://github.com/specta-rs/tauri-specta">tauri-specta</a>,
+                <a href="https://github.com/bazelbuild/rules_rust">rules_rust</a>,
+                <a href="https://github.com/kaosat-dev/Blenvy">Blenvy</a>
+            </p>
         </div>
 
         <div class="content secondary">
             <h2>Skills</h2>
 
             <div class="skills">
+                <div><span class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                        class="dot"></span><span class="dot no"></span>Rust</div>
                 <div><span class="dot"></span><span class="dot"></span><span class="dot"></span><span
                         class="dot"></span><span class="dot no"></span>Javascript / Typescript</div>
                 <div><span class="dot"></span><span class="dot"></span><span class="dot"></span><span
@@ -115,10 +182,14 @@
                         class="dot"></span><span class="dot no"></span>Node.js</div>
                 <div><span class="dot"></span><span class="dot"></span><span class="dot"></span><span
                         class="dot no"></span><span class="dot no"></span>React Native</div>
+                <div><span class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                        class="dot no"></span><span class="dot no"></span>Go</div>
+                <div><span class="dot"></span><span class="dot"></span><span class="dot"></span><span
+                        class="dot no"></span><span class="dot no"></span>SQL</div>
                 <div><span class="dot"></span><span class="dot"></span><span class="dot no"></span><span
                         class="dot no"></span><span class="dot no"></span>Python</div>
-                <div><span class="dot"></span></span><span class="dot no"></span><span class="dot no"></span><span
-                        class="dot no"></span><span class="dot no"></span>SQL</div>
+                <div><span class="dot"></span><span class="dot"></span><span class="dot no"></span><span
+                        class="dot no"></span><span class="dot no"></span>Java</div>
             </div>
         </div>
     </div>
