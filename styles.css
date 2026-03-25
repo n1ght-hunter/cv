@@ -222,6 +222,13 @@ main {
     grid-template-columns: 1fr;
   }
 
+  .page > :nth-child(1),
+  .page > .contact,
+  .page > :nth-child(3) {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
   .contact {
     order: 4;
     position: relative;
